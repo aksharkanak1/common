@@ -1,0 +1,2 @@
+#define COMMON_SUCCESS  0
+#define COMMON_FAILURE  -1
