@@ -119,3 +119,11 @@ int bitSet::totalOnes()
    return total1s;
 }
 
+void bitSet::clearBitSet()
+{
+    if(NULL == ptr)
+       return ; 
+
+    memset(ptr,0,validSize);
+ 
+}

@@ -20,5 +20,6 @@ class bitSet
             int GetBitArray(uint8_t *buff, uint32_t * vS); 
             int CheckIfBitSet(uint32_t pos);
             int totalOnes();
+            void clearBitSet();
 
 };
